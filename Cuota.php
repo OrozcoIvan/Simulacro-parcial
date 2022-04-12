@@ -59,7 +59,7 @@ class Cuota{
       }else
         $cancelada= "No ha sido cancelada";
       return "\n Numero: ".$this->getNumero().
-             "\n Monto de la Cuota: ".$this->getMontoInteres().
+             "\n Monto de la Cuota: ".$this->getMontoCuota().
              "\n Monto de Interes: ".$this->getMontoInteres().
              "\n Cancelada: ".$cancelada;
     } 
